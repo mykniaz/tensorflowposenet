@@ -1,0 +1,11 @@
+.idea
+/config/cache.php
+/config/db.php
+/config/params.php
+/config/app.php
+/config/env.php
+runtime/*
+/web/assets
+/web/storage
+/web/store_names.csv
+node_modules
