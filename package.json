@@ -1,11 +1,18 @@
 {
   "name": "tensorflowposenet",
-  "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "@tensorflow/tfjs": "^0.12.5",
+    "@tensorflow-models/posenet": "^0.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
 }

@@ -1,0 +1,26 @@
+body {
+    /*padding: 20px;*/
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.photo-wrapper {
+    display: block;
+    position: relative;
+}
+
+.photo-image {
+    max-width: 100%;
+}
+
+.photo-point {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: red;
+}
